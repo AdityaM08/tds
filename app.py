@@ -1,13 +1,13 @@
 import streamlit as st
-st.write("TDS MODULE 8")
-a=st.number_input("Enter first number")
-b=st.number_input("Enter second number")
-c=st.number_input("Enter second number") 
-if (a >= b) and (a >= c):
-   largest = a
-elif (b >= a) and (b >= c):
-   largest = b
+st.write("TDS Assignment  8")
+p=st.number_input("Enter first number")
+q=st.number_input("Enter second number")
+r=st.number_input("Enter third number") 
+if (p >= q) and (a >= r):
+   largest = p
+elif (q >= p) and (b >= r):
+   largest = q
 else:
-   largest = c
+   largest = r
 st.write("The largest number is", largest)
 st.write("By Aditya Malik")
